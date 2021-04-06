@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "horizon-234621"
+  },
+  "targets": {
+    "horizon-234621": {
+      "hosting": {
+        "web": [
+          "bioviz-web"
+        ]
+      }
+    }
+  }
+}

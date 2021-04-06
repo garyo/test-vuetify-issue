@@ -1,0 +1,35 @@
+@import '~vuetify/src/styles/styles.sass';
+
+// Standard colors -- the BioViz Studio logo primary color
+$bvs-primary-color: #46a5ff;
+
+// @debug(map-get($font-weights, 'light'));
+
+// Styled scrollbar (Webkit only, for now)
+
+body::-webkit-scrollbar {
+    width: 12px;
+}
+
+body::-webkit-scrollbar-track {
+    background: #333;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+
+body::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 6px;
+    -webkit-box-shadow: inset 0 0 3px rgba(0,0,0,0.5);
+}
+
+// Standard styles
+
+.v-btn:hover {
+    text-shadow: 0 0 5px white, 0 0 2px white;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: map-get($font-weights, 'light') !important;
+    color: $bvs-primary-color;
+    text-align: center;
+}
